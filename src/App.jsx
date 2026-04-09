@@ -33,7 +33,7 @@ const copyTextToClipboard = (text) => {
   finally { document.body.removeChild(textArea); }
 };
 
-// Fonction spéciale pour copier un tableau HTML de manière à ce que Word l'interprète comme un tableau
+// Fonction spéciale pour copier un tableau HTML de manière à ce que Word l'interprète comme un tableau.
 const copyHTMLTableToClipboard = (elementId) => {
   const el = document.getElementById(elementId);
   if (!el) return false;
